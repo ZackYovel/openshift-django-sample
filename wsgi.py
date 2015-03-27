@@ -4,9 +4,10 @@ import os
 import sys
 
 os.environ['DJANGO_SETTINGS_MODULE'] = 'myproject.settings'
-sys.path.append(os.path.join(os.environ['OPENSHIFT_REPO_DIR'], 'wsgi', 'myproject'))
+sys.path.append(os.path.join(os.environ['OPENSHIFT_REPO_DIR'], 'myproject'))
 
-virtenv = os.environ['OPENSHIFT_PYTHON_DIR'] + '/virtenv/'
+
+virtenv = os.path.join(os.environ['OPENSHIFT_PYTHON_DIR'],'virtenv')
 virtualenv = os.path.join(virtenv, 'bin/activate_this.py')
 try:
   # See: http://stackoverflow.com/questions/23418735/using-python-3-3-in-openshifts-book-example?noredirect=1#comment35908657_23418735
