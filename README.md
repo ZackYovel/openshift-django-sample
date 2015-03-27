@@ -29,7 +29,7 @@ Work with python 2.7:
 ---------------------
 
 1. In wsgi.py un-comment the line: `#execfile(virtualenv, dict(__file__=virtualenv)) # for Python v2.7`
-2. Still there, comment-out any un-commented line between the `try` and the `except`, such that the line you've commented remains the only un-commented line
+2. Still there, comment-out any un-commented line between the `try` and the `except`, such that the line you've un-commented previously remains the only un-commented line
 3. Follow the steps of 'Deployment on openshift' above, but use python-2.7 instead of python-3.3
 
 Good luck!
