@@ -1,5 +1,6 @@
 # openshift-django-sample
 A django sample for openshift, compatible with the new directory layout
+
 Written for django 1.7.x and python 3.3, but can be adapted to python 2.7 (instructions in this file)
 
 Licence: MIT for the parts that are in my domain (most is openshift and django code)
