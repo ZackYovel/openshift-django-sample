@@ -15,7 +15,7 @@ Deployment on openshift:
 * Create an account at https://www.openshift.com
 * Install rhc: https://developers.openshift.com/en/managing-client-tools.html
 * Setup your machine: `$ rhc setup`
-* Create a python application: `$ rhc app create django python-3.3`
+* Create a python application: `$ rhc app create <appname> python-3.3`
 * Add this repo as upstream:
 ```
   $ cd django
